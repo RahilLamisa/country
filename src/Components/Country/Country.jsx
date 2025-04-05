@@ -31,4 +31,4 @@ const Country = ({country, handleVisitedCountries, handleVisitedFlags}) => {
     );
 };
 
-export default Country;
+export default Country;

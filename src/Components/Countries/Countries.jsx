@@ -10,7 +10,7 @@ const Countries = ({fetchAllCountries}) => {
     const countries = use(fetchAllCountries);
 
     const handleVisitedCountries = (country) => {
-        console.log('clicked visited countries', country);
+        // console.log('clicked visited countries', country);
         const newVisitedCountries = [...visitedCountries, country];
         setVisitedCountries(newVisitedCountries)
     }
